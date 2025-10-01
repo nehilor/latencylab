@@ -1,0 +1,39 @@
+{
+  "name": "latencylab-electron",
+  "version": "1.0.0",
+  "description": "LatencyLab Electron Desktop Application",
+  "main": "out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "start": "electron-vite dev"
+  },
+  "keywords": [
+    "electron",
+    "vite",
+    "react",
+    "typescript",
+    "latency",
+    "monitoring",
+    "network",
+    "testing"
+  ],
+  "author": "LatencyLab Team",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@types/node": "24.6.1",
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "@vitejs/plugin-react": "5.0.4",
+    "electron": "38.2.0",
+    "electron-vite": "4.0.1",
+    "typescript": "5.9.3",
+    "vite": "7.1.7"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  }
+}
